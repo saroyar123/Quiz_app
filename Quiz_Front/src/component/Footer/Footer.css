@@ -1,0 +1,45 @@
+.Footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.FooterContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.FooterLogo h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.FooterLinks ul {
+    list-style: none;
+    padding: 0;
+}
+
+.FooterLinks li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.FooterLinks a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.FooterCopyright {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Add a hover effect to links */
+.FooterLinks a:hover {
+    text-decoration: underline;
+}

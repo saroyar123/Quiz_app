@@ -18,6 +18,10 @@ const User=mongoose.Schema({
         type:String,
         required:true,
         select:false
+    },
+    score:{
+        type:Number,
+        default:0
     }
 })
 

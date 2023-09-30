@@ -1,0 +1,66 @@
+.language-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #d6e2eb;
+    /* background-image: linear-gradient(to bottom, #007ACC, #005D9C); */
+    color: #fff;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.language-container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.language-button button {
+    background-color: #fff;
+    color: #50e9e6;
+    border: none;
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.language-button button:hover {
+    background-color: #005D9C;
+    color: #fff;
+}
+
+.language-container p {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.language-container button {
+    background-color: #fff;
+    color: #007ACC;
+    border: none;
+    padding: 12px 24px;
+    margin-top: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.language-container button:hover {
+    background-color: #005D9C;
+    color: #fff;
+}
+
+.language-container button.start{
+    background-color: #578d58; /* Green color for the "Start" button */
+    color: #fff;
+}
+
+.language-container button.start:hover{
+    background-color: #51cd57;
+}

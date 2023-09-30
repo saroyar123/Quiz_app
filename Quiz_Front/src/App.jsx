@@ -9,6 +9,7 @@ import Register from './component/Register/Register'
 import { getUserAction } from './Action/UserAction'
 import Login from './component/Login/Login'
 import QuestionBord from './component/QuestionBord/QuestionBord'
+import ChooseLanguage from './component/ChooseLanguage/ChooseLanguage'
 
 function App() {
   const dispatch = useDispatch();
@@ -33,6 +34,7 @@ function App() {
         <Route path='/' element={<Navbar />}>
           <Route index element={<Home />} />
           <Route path='/play' element={<QuestionBord/>}/>
+          <Route path='/choose' element={<ChooseLanguage/>}/>
         </Route>}
 
         {/* <Route path='/' element={<Register/>}/>  */}

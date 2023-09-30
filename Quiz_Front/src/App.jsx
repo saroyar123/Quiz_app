@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Navbar from './component/Navbar/Navbar'
@@ -10,10 +10,13 @@ import { getUserAction } from './Action/UserAction'
 import Login from './component/Login/Login'
 import QuestionBord from './component/QuestionBord/QuestionBord'
 import ChooseLanguage from './component/ChooseLanguage/ChooseLanguage'
+import Result from './component/Result/Result'
+import Dashboard from './component/Dashboard/Dashboard'
+import Account from './component/Account/Account'
 
 function App() {
   const dispatch = useDispatch();
-  useState(()=>{
+  useEffect(()=>{
     dispatch(getUserAction());
   },[dispatch,getUserAction])
   
@@ -35,9 +38,10 @@ function App() {
           <Route index element={<Home />} />
           <Route path='/play' element={<QuestionBord/>}/>
           <Route path='/choose' element={<ChooseLanguage/>}/>
+          <Route path='/result' element={<Result/>}/>
+          <Route path='/dashboard' element={<Dashboard/>}/>
+          <Route path='/account' element={<Account/>}/>
         </Route>}
-
-        {/* <Route path='/' element={<Register/>}/>  */}
       </Routes>
       </>
     }

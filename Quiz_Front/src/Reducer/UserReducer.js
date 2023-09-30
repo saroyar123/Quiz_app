@@ -14,11 +14,12 @@ export const userReducer=createReducer({
 
     createUserSuccess:(state,action)=>{
         state.loading=true;
-        state.data.success=action.playload.success
+        state.data.success=action.playload
      },
 
-    createUserFailure:(state)=>{
+    createUserFailure:(state,action)=>{
         state.loading=true;
+        state.data=action.playload
      },
 
 
@@ -31,8 +32,9 @@ export const userReducer=createReducer({
          state.data=action.playload
       },
  
-      loginUserFailure:(state)=>{
+      loginUserFailure:(state,action)=>{
          state.loading=false;
+         state.data=action.playload
       }
     
 })
@@ -54,8 +56,9 @@ export const getUser=createReducer({
          state.data=action.playload
       },
  
-     getUserFailure:(state)=>{
+     getUserFailure:(state,action)=>{
          state.loading=false;
+         state.data=action.playload
       },
 }
 )

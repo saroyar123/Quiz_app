@@ -1,5 +1,5 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 import "./Navbar.css"
 import Footer from '../Footer/Footer'
 
@@ -8,14 +8,12 @@ const Navbar = () => {
         <>
             <div className='Navbar'>
                 <div className='Logo'>
-                    <a href='/'>
-                    <h1>LingoQuiz</h1>
-                    </a>
+                    <Link to={"/"}>LingoQuiz</Link>
                 </div>
                 <div className='NavLinks'>
-                    <a href='/play'>Play</a>
-                    <a href='/dashboard'>Dashboard</a>
-                    <a href='/account'>Account</a>
+                    <Link to={"/play"}>Play</Link>
+                    <Link to={"dashboard"}>Dashboard</Link>
+                    <Link to={"/account"}>Account</Link>
                 </div>
             </div>
             <div className='Outlet'>

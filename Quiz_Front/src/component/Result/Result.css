@@ -1,0 +1,31 @@
+/* Styling for the Result component */
+.Result {
+    text-align: center;
+    padding: 20px;
+}
+
+.Result h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.Result h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.Result button {
+    background-color: #007ACC;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.Result button:hover {
+    background-color: #005D9C;
+}

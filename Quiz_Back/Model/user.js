@@ -46,7 +46,7 @@ User.pre('save',function(next){
     });
 })
 
-User.methods.comparePassword = function(candidatePassword) {
-  return bcrypt.compare(candidatePassword, this.password)
-};
+// User.methods.comparePassword = function(candidatePassword) {
+//   return bcrypt.compare(candidatePassword, this.password)
+// };
 module.exports=mongoose.model("user",User);

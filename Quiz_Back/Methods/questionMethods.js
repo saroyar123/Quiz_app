@@ -2,8 +2,9 @@ const Question = require("../Model/question")
 
 exports.getAllQuestion=async(req,res)=>{
 try {
+    // console.log("call")
     let {language,limit}=req.query;
-    console.log(typeof(limit))
+    // console.log(typeof(limit))
     const question= await Question.aggregate([
         { $match: { language: language } }, // Filter by English language
         { $sample: { size: parseInt(limit) } }, // Get 5 random questions

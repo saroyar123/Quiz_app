@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { userCreateAction } from '../../Action/UserAction';
 import "./Register.css"
+import { Link } from 'react-router-dom';
 
 const Register = () => {
     const [name,setName]=useState("");
@@ -25,9 +26,10 @@ const Register = () => {
             
             <div className="Button_Register">
             <button type='submit'>Register</button>
-            <a href='/'>
+            {/* <a href='/'>
                 Login
-            </a>
+            </a> */}
+            <Link to={"/"}>Login</Link>
             </div>
            
             

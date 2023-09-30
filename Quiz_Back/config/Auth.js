@@ -3,6 +3,9 @@ const user = require("../Model/user");
 
 exports.userAuth=async(req,res,next)=>{
     try {
+        if(req.headers.authorization.split(" ")[1]=="undefined")
+        throw new Error("Please Login")
+
         const token=req.headers.authorization.split(" ")[1];
         if(!token)
         throw new Error("Token not found");
@@ -10,7 +13,8 @@ exports.userAuth=async(req,res,next)=>{
         const {email}=jwt.verify(token,process.env.jwtSecret);
         const User=await user.findOne({email:email});
 
-        if(!user)
+
+        if(!User)
         throw new Error("User not found");
 
         req.user=User;

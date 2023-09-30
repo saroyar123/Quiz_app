@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./Login.css"
 import { useDispatch } from 'react-redux';
 import { getUserAction, userLoginAction } from '../../Action/UserAction';
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     const [email, setEmail] = useState("");
@@ -19,7 +20,8 @@ const Login = () => {
                 <input placeholder='password' value={password} onChange={(e) => setPassword(e.target.value)} />
                 <div className='Button_Login'>
                     <button type='submit'>Login</button>
-                    <a href='/register'>Register</a>
+                    {/* <a href='/register'>Register</a> */}
+                    <Link to={"/register"}>Register</Link>
                 </div>
 
             </form>

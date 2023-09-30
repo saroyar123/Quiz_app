@@ -9,16 +9,18 @@ export const userCreateAction=(name,email,password)=>async(dispatch)=>{
 
           const data=await axios.post("http://localhost:4000/api/v1/user",{name,email,password});
           console.log(data)
+          Cookies.set("token",data.token)
 
           dispatch({
             type:"createUserSuccess",
-            playload:data
+            playload:data.message
           })
 
    } catch (error) {
+
     dispatch({
         type:"createUserFailure",
-        playload:error.message
+        playload:error.response.data
       })
    }
 }
@@ -33,11 +35,13 @@ export const userLoginAction=(email,password)=>async(dispatch)=>{
         Cookies.set("token",data.token);
         dispatch({
             type:"loginUserSuccess",
-            playload:data
+            playload:data.message
         })
     } catch (error) {
+      console.log(error.response.data)
         dispatch({
-            type:"loginUserFailure"
+            type:"loginUserFailure",
+            playload:error.response.data
         })
     }
 }
@@ -65,6 +69,7 @@ export const getUserAction=()=>async(dispatch)=>{
     } catch (error) {
         dispatch({
             type:"getUserFailure",
+            playload:error.response.data
           })
     }
 }

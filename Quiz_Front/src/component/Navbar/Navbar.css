@@ -14,8 +14,10 @@
     margin: 0;
     font-size: 24px;
 }
-.Logo a{
+
+.Logo a {
     text-decoration: none;
+    color: white;
 }
 
 .NavLinks a {
@@ -23,13 +25,13 @@
     text-decoration: none;
     margin-right: 20px;
     font-size: 16px;
+    transition: text-decoration 0.3s;
 }
 
 .NavLinks a:hover {
     text-decoration: underline;
 }
 
-.Outlet{
+.Outlet {
     min-height: 80vh;
 }
-

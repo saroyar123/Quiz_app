@@ -10,11 +10,11 @@ export const userReducer = createReducer(
   },
   {
     createUserRequest: (state) => {
-      state.loading = false;
+      state.loading = true;
     },
 
     createUserSuccess: (state, action) => {
-      state.loading = true;
+      state.loading = false;
       state.data = action.playload;
     },
 

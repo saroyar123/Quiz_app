@@ -6,6 +6,7 @@ import { useDispatch } from 'react-redux';
 import axios from 'axios';
 import Timer from '../Timer/Timer';
 import Cookies from 'js-cookie';
+import { getUserAction } from '../../Action/UserAction';
 
 const QuestionBord = () => {
   const [lang, setLang] = useState(localStorage.getItem("language"));
@@ -81,6 +82,7 @@ const QuestionBord = () => {
       type: "resultUpdate",
       playload: result
     })
+    dispatch(getUserAction())
     navigate("/result")
   }
 

@@ -28,7 +28,7 @@ const QuestionBord = () => {
 
     // console.log(Cookies.get("token"))
 
-    axios.get(`http://localhost:4000/api/v1/question/?language=${lang}&limit=1`,
+    axios.get(`https://quiz-app-znxn.onrender.com/api/v1/question/?language=${lang}&limit=1`,
       {
         headers: {
           Authorization: `Bearer ${Cookies.get("token")}`
@@ -68,7 +68,7 @@ const QuestionBord = () => {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    axios.post("http://localhost:4000/api/v1/score",
+    axios.post("https://quiz-app-znxn.onrender.com/api/v1/score",
       { score: result.score },
       {
         headers: {

@@ -7,7 +7,7 @@ export const userCreateAction=(name,email,password)=>async(dispatch)=>{
             type:"createUserRequest"
           })
 
-          const {data}=await axios.post("http://localhost:4000/api/v1/user",{name,email,password});
+          const {data}=await axios.post("https://quiz-app-znxn.onrender.com/api/v1/user",{name,email,password});
           // console.log(data)
 
           dispatch({
@@ -29,7 +29,7 @@ export const userLoginAction=(email,password)=>async(dispatch)=>{
         dispatch({
             type:"loginUserRequest"
         })
-        const {data}=await axios.post("http://localhost:4000/api/v1/login",{email,password});
+        const {data}=await axios.post("https://quiz-app-znxn.onrender.com/api/v1/login",{email,password});
         // console.log(data.token)
         Cookies.set("token",data.token);
         dispatch({
@@ -53,7 +53,7 @@ export const getUserAction=()=>async(dispatch)=>{
             type: "getUserRequest"
           })
 
-          const {data}=await axios.get("http://localhost:4000/api/v1/user",{
+          const {data}=await axios.get("https://quiz-app-znxn.onrender.com/api/v1/user",{
             headers:{
                 Authorization : `Bearer ${Cookies.get("token")}`
             }
@@ -78,7 +78,7 @@ export const allUserAction=()=>async(dispatch)=>{
     dispatch({
       type:"allUserRequest"
     })
-    const {data}=await axios.get("http://localhost:4000/api/v1/alluser",{
+    const {data}=await axios.get("https://quiz-app-znxn.onrender.com/api/v1/alluser",{
       headers:{
           Authorization : `Bearer ${Cookies.get("token")}`
       }

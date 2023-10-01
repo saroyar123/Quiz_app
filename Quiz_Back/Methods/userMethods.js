@@ -3,18 +3,22 @@ const emailValidator = require("deep-email-validator");
 const jwt = require("jsonwebtoken");
 const bcrypt = require("bcrypt");
 
+
+function validateEmail(email) {
+  const regex = /^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/;
+  return regex.test(email);
+}
+
 // create user account
 exports.createUser = async (req, res) => {
   try {
     // console.log("call")
     // Destructure the request body
     const { name, email, password } = req.body;
-    // validiate the user give a valid email
-    const { valid } = await emailValidator.validate(email);
 
     // console.log(email, name, password, valid);
 // 
-    if (!valid) throw new Error("Please give a valid mail");
+    if (!validateEmail(email)) throw new Error("Please give a valid mail");
 
     //   create user in the database
     const User = await user.create({ name, email, password });

@@ -12,14 +12,14 @@ export const userCreateAction=(name,email,password)=>async(dispatch)=>{
 
           dispatch({
             type:"createUserSuccess",
-            playload:data
+            payload:data
           })
 
    } catch (error) {
 
     dispatch({
         type:"createUserFailure",
-        playload:error.response.data
+        payload:error.response.data
       })
    }
 }
@@ -34,13 +34,13 @@ export const userLoginAction=(email,password)=>async(dispatch)=>{
         Cookies.set("token",data.token);
         dispatch({
             type:"loginUserSuccess",
-            playload:data
+            payload:data
         })
     } catch (error) {
       // console.log(error.response.data)
         dispatch({
             type:"loginUserFailure",
-            playload:error.response.data
+            payload:error.response.data
         })
     }
 }
@@ -62,13 +62,13 @@ export const getUserAction=()=>async(dispatch)=>{
 
           dispatch({
             type: "getUserSuccess",
-            playload:data
+            payload:data
           })
         
     } catch (error) {
         dispatch({
             type:"getUserFailure",
-            playload:error.response.data
+            payload:error.response.data
           })
     }
 }
@@ -86,12 +86,12 @@ export const allUserAction=()=>async(dispatch)=>{
 
     dispatch({
       type:"allUserSuccess",
-      playload:data
+      payload:data
     })
   } catch (error) {
     dispatch({
       type:"allUserFailure",
-      playload:error.response.data
+      payload:error.response.data
     })
   }
 }

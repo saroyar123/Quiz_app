@@ -15,7 +15,7 @@ export const Qusetion = createReducer(
 
     getQuestionSuccess: (state, action) => {
       state.loading = true;
-      state.data.success = action.playload.success;
+      state.data.success = action.payload.success;
     },
 
     getQuestionFailure: (state) => {
@@ -29,6 +29,6 @@ export const result = createReducer(
         result:null
     }, {
     resultUpdate:(state,action)=>{
-       state.result=action.playload
+       state.result=action.payload
     }
 });

@@ -15,12 +15,12 @@ export const userReducer = createReducer(
 
     createUserSuccess: (state, action) => {
       state.loading = false;
-      state.data = action.playload;
+      state.data = action.payload;
     },
 
     createUserFailure: (state, action) => {
       state.loading = false;
-      state.data = action.playload;
+      state.data = action.payload;
     },
 
     loginUserRequest: (state) => {
@@ -29,12 +29,12 @@ export const userReducer = createReducer(
 
     loginUserSuccess: (state, action) => {
       state.loading = false;
-      state.data = action.playload;
+      state.data = action.payload;
     },
 
     loginUserFailure: (state, action) => {
       state.loading = false;
-      state.data = action.playload;
+      state.data = action.payload;
     },
   }
 );
@@ -54,12 +54,12 @@ export const getUser = createReducer(
 
     getUserSuccess: (state, action) => {
       state.loading = false;
-      state.data = action.playload;
+      state.data = action.payload;
     },
 
     getUserFailure: (state, action) => {
       state.loading = false;
-      state.data = action.playload;
+      state.data = action.payload;
     },
   }
 );
@@ -78,11 +78,11 @@ export const getAllUser = createReducer({
   
       allUserSuccess: (state, action) => {
         state.loading = false;
-        state.data = action.playload;
+        state.data = action.payload;
       },
   
       allUserFailure: (state, action) => {
         state.loading = false;
-        state.data = action.playload;
+        state.data = action.payload;
       },
 });

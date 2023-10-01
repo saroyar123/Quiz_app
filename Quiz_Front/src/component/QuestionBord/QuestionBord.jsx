@@ -80,7 +80,7 @@ const QuestionBord = () => {
     )
     dispatch({
       type: "resultUpdate",
-      playload: result
+      payload: result
     })
     dispatch(getUserAction())
     navigate("/result")

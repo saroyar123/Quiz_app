@@ -1,4 +1,4 @@
-/* Styling for the Dashboard component */
+
 .dashboard-container {
     padding: 20px;
     text-align: center;
@@ -17,7 +17,7 @@
 }
 
 .heading h1 {
-    flex-basis: 30%; /* Adjust the width as needed */
+    flex-basis: 30%; 
     text-align: center;
 }
 
@@ -32,20 +32,20 @@
 }
 
 .dashboard-user h3 {
-    flex-basis: 30%; /* Adjust the width as needed */
+    flex-basis: 30%; 
     text-align: center;
 }
 
 .dashboard-user:nth-child(odd) {
-    background-color: #f5f5f5; /* Alternate row background color */
+    background-color: #f5f5f5;
 }
 
 .dashboard-user:hover {
-    background-color: #e0e0e0; /* Hover background color */
+    background-color: #e0e0e0; 
 }
 
 .user-row {
-    background-color: #FFD700; /* Yellow background color for the user's row */
+    background-color: #FFD700; 
 }
 
 .user-row  {
@@ -59,6 +59,6 @@
 }
 
 .user-row  h3 {
-    flex-basis: 30%; /* Adjust the width as needed */
+    flex-basis: 30%; 
     text-align: center;
 }

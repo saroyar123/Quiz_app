@@ -1,0 +1,826 @@
+[{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bea"
+  },
+  "language": "Hindi",
+  "question": "किसे दिल्ली जाना है?",
+  "options": [
+    "मैं",
+    "तुम",
+    "वह",
+    "हम"
+  ],
+  "correct_answer": "मैं"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998beb"
+  },
+  "language": "Hindi",
+  "question": "राम के पास कितनी किताबें हैं?",
+  "options": [
+    "एक",
+    "दो",
+    "तीन",
+    "चार"
+  ],
+  "correct_answer": "तीन"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bec"
+  },
+  "language": "Hindi",
+  "question": "वह कहाँ जा रहा है?",
+  "options": [
+    "बगीचे",
+    "मंदिर",
+    "स्कूल",
+    "मार्केट"
+  ],
+  "correct_answer": "स्कूल"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bed"
+  },
+  "language": "Hindi",
+  "question": "इस परीक्षा में कितने छात्र शामिल हैं?",
+  "options": [
+    "५०",
+    "१००",
+    "२५०",
+    "५००"
+  ],
+  "correct_answer": "१००"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bee"
+  },
+  "language": "Hindi",
+  "question": "यह कौन सा दिन है?",
+  "options": [
+    "सोमवार",
+    "मंगलवार",
+    "बुधवार",
+    "शुक्रवार"
+  ],
+  "correct_answer": "सोमवार"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bef"
+  },
+  "language": "Hindi",
+  "question": "राम किसे पसंद करता है?",
+  "options": [
+    "मंदिर",
+    "पुस्तकें",
+    "खेलना",
+    "फल"
+  ],
+  "correct_answer": "पुस्तकें"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bf0"
+  },
+  "language": "Hindi",
+  "question": "वे क्या खा रहे हैं?",
+  "options": [
+    "पिज्जा",
+    "दाल-चावल",
+    "बर्गर",
+    "चाय"
+  ],
+  "correct_answer": "दाल-चावल"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bf1"
+  },
+  "language": "Hindi",
+  "question": "किताब क्या है?",
+  "options": [
+    "कागज",
+    "कलम",
+    "खेल",
+    "पढ़ाई"
+  ],
+  "correct_answer": "पढ़ाई"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bf2"
+  },
+  "language": "Hindi",
+  "question": "वे किसे देख रहे हैं?",
+  "options": [
+    "टीवी",
+    "मोबाइल",
+    "चिड़िया",
+    "सड़क"
+  ],
+  "correct_answer": "चिड़िया"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bf3"
+  },
+  "language": "Hindi",
+  "question": "वह किताब कहाँ रखी है?",
+  "options": [
+    "मेज़",
+    "किचन",
+    "बेडरूम",
+    "बाथरूम"
+  ],
+  "correct_answer": "बेडरूम"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bf4"
+  },
+  "language": "Hindi",
+  "question": "तुम कौन सा गाना गा रहे हो?",
+  "options": [
+    "क्लासिकल",
+    "रॉक",
+    "पॉप",
+    "गाना नहीं"
+  ],
+  "correct_answer": "गाना नहीं"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bf5"
+  },
+  "language": "Hindi",
+  "question": "कुत्ता कैसे भौंकता है?",
+  "options": [
+    "मूँदकर",
+    "बिना बौंके",
+    "डांस करके",
+    "दौड़कर"
+  ],
+  "correct_answer": "बिना बौंके"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bf6"
+  },
+  "language": "Hindi",
+  "question": "राजु क्या खेलता है?",
+  "options": [
+    "कराटे",
+    "बास्केटबॉल",
+    "फुटबॉल",
+    "खूब खेलता है"
+  ],
+  "correct_answer": "खूब खेलता है"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bf7"
+  },
+  "language": "Hindi",
+  "question": "इस छवि में कौन सा फल है?",
+  "options": [
+    "आम",
+    "सेब",
+    "केला",
+    "अंगूर"
+  ],
+  "correct_answer": "सेब"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bf8"
+  },
+  "language": "Hindi",
+  "question": "कौनसी रंगीन पेड़ी है?",
+  "options": [
+    "नीला",
+    "हरा",
+    "लाल",
+    "पीला"
+  ],
+  "correct_answer": "हरा"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bf9"
+  },
+  "language": "Hindi",
+  "question": "वह किसे देख रहा है?",
+  "options": [
+    "टीवी",
+    "मोबाइल",
+    "किताब",
+    "सड़क"
+  ],
+  "correct_answer": "किताब"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bfa"
+  },
+  "language": "Hindi",
+  "question": "तुम किताब कब पढ़ रहे हो?",
+  "options": [
+    "सुबह",
+    "दोपहर",
+    "रात",
+    "कभी नहीं"
+  ],
+  "correct_answer": "रात"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bfb"
+  },
+  "language": "Hindi",
+  "question": "कौन सा पक्षी उड़ता है?",
+  "options": [
+    "मुर्गा",
+    "मेंढ़क",
+    "गाय",
+    "बतख"
+  ],
+  "correct_answer": "बतख"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bfc"
+  },
+  "language": "Hindi",
+  "question": "वह कहाँ गया था?",
+  "options": [
+    "शॉपिंग मॉल",
+    "बिच",
+    "स्कूल",
+    "मंदिर"
+  ],
+  "correct_answer": "स्कूल"
+},
+{
+  "_id": {
+    "$oid": "651482b184e0da68e1998bfd"
+  },
+  "language": "Hindi",
+  "question": "वह क्या खा रहा है?",
+  "options": [
+    "पानी",
+    "पिज्जा",
+    "संदेश",
+    "चाय"
+  ],
+  "correct_answer": "पिज्जा"
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c01"
+  },
+  "language": "English",
+  "question": "Which of the following is a correct sentence?",
+  "options": [
+    "She don't like ice cream.",
+    "She doesn't like ice cream.",
+    "She not likes ice cream.",
+    "She not liking ice cream."
+  ],
+  "correct_answer": "She doesn't like ice cream."
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c02"
+  },
+  "language": "English",
+  "question": "What is the plural form of 'child'?",
+  "options": [
+    "Childs",
+    "Childes",
+    "Children",
+    "Child's"
+  ],
+  "correct_answer": "Children"
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c03"
+  },
+  "language": "English",
+  "question": "Which word is a synonym for 'happy'?",
+  "options": [
+    "Sad",
+    "Joyful",
+    "Angry",
+    "Excited"
+  ],
+  "correct_answer": "Joyful"
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c04"
+  },
+  "language": "English",
+  "question": "Which of these words is a preposition?",
+  "options": [
+    "Run",
+    "Quickly",
+    "Under",
+    "Jump"
+  ],
+  "correct_answer": "Under"
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c05"
+  },
+  "language": "English",
+  "question": "What is the past tense of 'eat'?",
+  "options": [
+    "Eating",
+    "Eaten",
+    "Ate",
+    "Eats"
+  ],
+  "correct_answer": "Ate"
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c06"
+  },
+  "language": "English",
+  "question": "Which of the following is a conjunction?",
+  "options": [
+    "And",
+    "Happy",
+    "Quickly",
+    "Jumping"
+  ],
+  "correct_answer": "And"
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c07"
+  },
+  "language": "English",
+  "question": "What is the comparative form of 'good'?",
+  "options": [
+    "Gooder",
+    "Better",
+    "Best",
+    "Goodest"
+  ],
+  "correct_answer": "Better"
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c08"
+  },
+  "language": "English",
+  "question": "Choose the correct spelling:",
+  "options": [
+    "Recieve",
+    "Receive",
+    "Recieive",
+    "Recieve"
+  ],
+  "correct_answer": "Receive"
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c09"
+  },
+  "language": "English",
+  "question": "What is the superlative form of 'fast'?",
+  "options": [
+    "Fastest",
+    "Faster",
+    "Fastly",
+    "Fasting"
+  ],
+  "correct_answer": "Fastest"
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c0a"
+  },
+  "language": "English",
+  "question": "Which of these sentences is in the present perfect tense?",
+  "options": [
+    "She will go to the store.",
+    "They went to the park.",
+    "He has eaten lunch.",
+    "I am reading a book."
+  ],
+  "correct_answer": "He has eaten lunch."
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c0b"
+  },
+  "language": "English",
+  "question": "What is the plural form of 'mouse'?",
+  "options": [
+    "Mice",
+    "Mouses",
+    "Mouse's",
+    "Mice's"
+  ],
+  "correct_answer": "Mice"
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c0c"
+  },
+  "language": "English",
+  "question": "Choose the correct sentence:",
+  "options": [
+    "Their going to the beach.",
+    "They're going to the beach.",
+    "There going to the beach.",
+    "They going to the beach."
+  ],
+  "correct_answer": "They're going to the beach."
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c0d"
+  },
+  "language": "English",
+  "question": "Which of the following is an adverb?",
+  "options": [
+    "Happy",
+    "Slowly",
+    "Blue",
+    "Jumped"
+  ],
+  "correct_answer": "Slowly"
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c0e"
+  },
+  "language": "English",
+  "question": "What is the past participle of 'swim'?",
+  "options": [
+    "Swimmed",
+    "Swam",
+    "Swum",
+    "Swiming"
+  ],
+  "correct_answer": "Swum"
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c0f"
+  },
+  "language": "English",
+  "question": "Which word is a synonym for 'big'?",
+  "options": [
+    "Tiny",
+    "Huge",
+    "Small",
+    "Fast"
+  ],
+  "correct_answer": "Huge"
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c10"
+  },
+  "language": "English",
+  "question": "What is the antonym of 'dark'?",
+  "options": [
+    "Light",
+    "Shadow",
+    "Night",
+    "Black"
+  ],
+  "correct_answer": "Light"
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c11"
+  },
+  "language": "English",
+  "question": "Choose the correct punctuation:",
+  "options": [
+    "She likes to swim, in the ocean.",
+    "She likes to swim in the ocean",
+    "She likes to swim in, the ocean.",
+    "She likes to swim in the ocean."
+  ],
+  "correct_answer": "She likes to swim in the ocean."
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c12"
+  },
+  "language": "English",
+  "question": "What is the present continuous form of 'run'?",
+  "options": [
+    "Running",
+    "Run",
+    "Ran",
+    "Runner"
+  ],
+  "correct_answer": "Running"
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c13"
+  },
+  "language": "English",
+  "question": "Which of these words is a pronoun?",
+  "options": [
+    "Sing",
+    "Her",
+    "Jump",
+    "Quickly"
+  ],
+  "correct_answer": "Her"
+},
+{
+  "_id": {
+    "$oid": "651483de84e0da68e1998c14"
+  },
+  "language": "English",
+  "question": "What is the plural form of 'box'?",
+  "options": [
+    "Boxs",
+    "Boxes",
+    "Box's",
+    "Boxen"
+  ],
+  "correct_answer": "Boxes"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c16"
+  },
+  "language": "Bengali",
+  "question": "কোনটি সঠিক বাক্য?",
+  "options": [
+    "তিনি বই পড়েন না।",
+    "তিনি বই পড়ে।",
+    "তিনি বই পড়েনই।",
+    "তিনি বই পড়েন না।"
+  ],
+  "correct_answer": "তিনি বই পড়ে।"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c17"
+  },
+  "language": "Bengali",
+  "question": "‘শিশু’ শব্দের বহুবচন কি?",
+  "options": [
+    "শিশুরা",
+    "শিশুগণ",
+    "শিশুদের",
+    "শিশুনি"
+  ],
+  "correct_answer": "শিশুরা"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c18"
+  },
+  "language": "Bengali",
+  "question": "‘খুশি’ শব্দের একটি সমানার্থক শব্দ কি?",
+  "options": [
+    "দু: খিত",
+    "আনন্দিত",
+    "খুব দু: খিত",
+    "দু: খী"
+  ],
+  "correct_answer": "আনন্দিত"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c19"
+  },
+  "language": "Bengali",
+  "question": "‘পৃথিবী’ শব্দের প্রত্যয় কি?",
+  "options": [
+    "বুক",
+    "লা",
+    "কুল",
+    "তাল"
+  ],
+  "correct_answer": "লা"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c1a"
+  },
+  "language": "Bengali",
+  "question": "‘খাওয়া’ শব্দের মৌলিক রূপ কি?",
+  "options": [
+    "খে",
+    "খাওয়া",
+    "খাওয়াই",
+    "খায়"
+  ],
+  "correct_answer": "খাওয়া"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c1b"
+  },
+  "language": "Bengali",
+  "question": "‘দ্বীপ’ শব্দের প্রত্যয় কি?",
+  "options": [
+    "লা",
+    "কুল",
+    "গাছ",
+    "তাল"
+  ],
+  "correct_answer": "কুল"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c1c"
+  },
+  "language": "Bengali",
+  "question": "‘আকাশ’ শব্দের প্রত্যয় কি?",
+  "options": [
+    "কুল",
+    "লা",
+    "গাছ",
+    "তাল"
+  ],
+  "correct_answer": "গাছ"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c1d"
+  },
+  "language": "Bengali",
+  "question": "‘তারকা’ শব্দের বহুবচন কি?",
+  "options": [
+    "তারকা",
+    "তারকারা",
+    "তারকাগুলি",
+    "তারকাদের"
+  ],
+  "correct_answer": "তারকাদের"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c1e"
+  },
+  "language": "Bengali",
+  "question": "‘খাবার’ শব্দের প্রত্যয় কি?",
+  "options": [
+    "খাও",
+    "খাবারে",
+    "খাওয়া",
+    "খাওয়াই"
+  ],
+  "correct_answer": "খাও"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c1f"
+  },
+  "language": "Bengali",
+  "question": "‘দাঁত’ শব্দের বহুবচন কি?",
+  "options": [
+    "দাঁতেরা",
+    "দাঁতগুলি",
+    "দাঁতরানি",
+    "দাঁতদের"
+  ],
+  "correct_answer": "দাঁতগুলি"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c20"
+  },
+  "language": "Bengali",
+  "question": "‘স্কুল’ শব্দের প্রত্যয় কি?",
+  "options": [
+    "স্কুলে",
+    "স্কুলগুলি",
+    "স্কুলদের",
+    "স্কুলের"
+  ],
+  "correct_answer": "স্কুলের"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c21"
+  },
+  "language": "Bengali",
+  "question": "‘বাচ্চা’ শব্দের বহুবচন কি?",
+  "options": [
+    "বাচ্চা",
+    "বাচ্চাগুলি",
+    "বাচ্চাদের",
+    "বাচ্চাদের"
+  ],
+  "correct_answer": "বাচ্চাগুলি"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c22"
+  },
+  "language": "Bengali",
+  "question": "‘প্রদর্শনী’ শব্দের প্রত্যয় কি?",
+  "options": [
+    "প্রদর্শনীরা",
+    "প্রদর্শনীর",
+    "প্রদর্শনীগুলি",
+    "প্রদর্শনীতে"
+  ],
+  "correct_answer": "প্রদর্শনীর"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c23"
+  },
+  "language": "Bengali",
+  "question": "‘পুষ্প’ শব্দের বহুবচন কি?",
+  "options": [
+    "পুষ্পের",
+    "পুষ্পগুলি",
+    "পুষ্পেরা",
+    "পুষ্পরা"
+  ],
+  "correct_answer": "পুষ্পগুলি"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c24"
+  },
+  "language": "Bengali",
+  "question": "‘দুধ’ শব্দের প্রত্যয় কি?",
+  "options": [
+    "দুধটি",
+    "দুধের",
+    "দুধটির",
+    "দুধেরা"
+  ],
+  "correct_answer": "দুধের"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c25"
+  },
+  "language": "Bengali",
+  "question": "‘ফুল’ শব্দের বহুবচন কি?",
+  "options": [
+    "ফুলেরা",
+    "ফুলগুলি",
+    "ফুলের",
+    "ফুলেরি"
+  ],
+  "correct_answer": "ফুলগুলি"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c26"
+  },
+  "language": "Bengali",
+  "question": "‘কবল’ শব্দের প্রত্যয় কি?",
+  "options": [
+    "কবলে",
+    "কবলটি",
+    "কবলটির",
+    "কবলের"
+  ],
+  "correct_answer": "কবলে"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c27"
+  },
+  "language": "Bengali",
+  "question": "‘বন্ধু’ শব্দের বহুবচন কি?",
+  "options": [
+    "বন্ধুরা",
+    "বন্ধুদের",
+    "বন্ধুগুলি",
+    "বন্ধুদেরা"
+  ],
+  "correct_answer": "বন্ধুগুলি"
+},
+{
+  "_id": {
+    "$oid": "6514860084e0da68e1998c28"
+  },
+  "language": "Bengali",
+  "question": "‘খেলা’ শব্দের প্রত্যয় কি?",
+  "options": [
+    "খেলের",
+    "খেলার",
+    "খেলা",
+    "খেলাই"
+  ],
+  "correct_answer": "খেলার"
+}]

@@ -1,4 +1,4 @@
-/* Styling for the Account component */
+
 .account-container {
     text-align: center;
     padding: 20px;
@@ -12,28 +12,28 @@
 .account-container h2 {
     font-size: 18px;
     margin-bottom: 20px;
-    color: #007ACC; /* Customize the text color as needed */
+    color: #007ACC; 
 }
 
 .change-language-button {
-    background-color: #FF5733; /* Red color for the Change Language button */
-    color: #fff; /* White text color */
+    background-color: #FF5733; 
+    color: #fff; 
     border: none;
     padding: 12px 24px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    margin-right: 10px; /* Add some spacing between buttons */
+    margin-right: 10px; 
     transition: background-color 0.3s, color 0.3s;
 }
 
 .change-language-button:hover {
-    background-color: #D9534F; /* Darker red on hover */
+    background-color: #D9534F; 
 }
 
 .logout-button {
-    background-color: #007ACC; /* Blue color for the Logout button */
-    color: #fff; /* White text color */
+    background-color: #007ACC; 
+    color: #fff; 
     border: none;
     padding: 12px 24px;
     border-radius: 5px;
@@ -43,5 +43,5 @@
 }
 
 .logout-button:hover {
-    background-color: #005D9C; /* Darker blue on hover */
+    background-color: #005D9C; 
 }

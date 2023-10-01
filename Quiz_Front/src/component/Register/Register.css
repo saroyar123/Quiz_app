@@ -51,3 +51,19 @@
 .Button_Register a:hover{
     color: #24d8c9;
 }
+
+/* Styling for the alert class */
+.alert {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #FF5733; /* Red background color for the alert */
+    color: #fff; /* White text color */
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.alert h1 {
+    margin: 0;
+}
+

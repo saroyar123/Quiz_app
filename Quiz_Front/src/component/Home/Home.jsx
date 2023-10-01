@@ -1,11 +1,12 @@
 import React, { useEffect } from 'react'
 import "./Home.css"
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
     <div className='home'>
         <h1>Start Learning</h1>
-        <a href='/play'>Play</a>
+        <Link to={'/play'}>Play</Link>
     </div>
   )
 }

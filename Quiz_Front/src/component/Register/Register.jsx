@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { useDispatch } from 'react-redux'
-import { userCreateAction } from '../../Action/UserAction';
+import { useDispatch, useSelector } from 'react-redux'
+import { getUserAction, userCreateAction } from '../../Action/UserAction';
 import "./Register.css"
 import { Link } from 'react-router-dom';
 
@@ -9,9 +9,13 @@ const Register = () => {
     const [email,setEmail]=useState("");
     const [password,setPassword]=useState("");
     const dispatch=useDispatch();
-    const submitHandler=(e)=>{
+    const {success,message}=useSelector((state)=>state.User.data)
+    console.log(message)
+    const submitHandler=async(e)=>{
         e.preventDefault();
-        dispatch(userCreateAction(name,email,password));
+        await dispatch(userCreateAction(name,email,password));
+        dispatch(getUserAction())
+
     }
   return (
     <div className="register-container">
@@ -31,6 +35,10 @@ const Register = () => {
             </a> */}
             <Link to={"/"}>Login</Link>
             </div>
+            {message!==null?
+            <div className='alert'>
+                <h1>{message}</h1>
+           </div>:<></>}
            
             
         </form>

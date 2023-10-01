@@ -7,13 +7,12 @@ export const userCreateAction=(name,email,password)=>async(dispatch)=>{
             type:"createUserRequest"
           })
 
-          const data=await axios.post("http://localhost:4000/api/v1/user",{name,email,password});
-          console.log(data)
-          Cookies.set("token",data.token)
+          const {data}=await axios.post("http://localhost:4000/api/v1/user",{name,email,password});
+          // console.log(data)
 
           dispatch({
             type:"createUserSuccess",
-            playload:data.message
+            playload:data
           })
 
    } catch (error) {
@@ -35,10 +34,10 @@ export const userLoginAction=(email,password)=>async(dispatch)=>{
         Cookies.set("token",data.token);
         dispatch({
             type:"loginUserSuccess",
-            playload:data.message
+            playload:data
         })
     } catch (error) {
-      console.log(error.response.data)
+      // console.log(error.response.data)
         dispatch({
             type:"loginUserFailure",
             playload:error.response.data
@@ -72,4 +71,27 @@ export const getUserAction=()=>async(dispatch)=>{
             playload:error.response.data
           })
     }
+}
+
+export const allUserAction=()=>async(dispatch)=>{
+  try {
+    dispatch({
+      type:"allUserRequest"
+    })
+    const {data}=await axios.get("http://localhost:4000/api/v1/alluser",{
+      headers:{
+          Authorization : `Bearer ${Cookies.get("token")}`
+      }
+    });
+
+    dispatch({
+      type:"allUserSuccess",
+      playload:data
+    })
+  } catch (error) {
+    dispatch({
+      type:"allUserFailure",
+      playload:error.response.data
+    })
+  }
 }

@@ -26,7 +26,7 @@ const QuestionBord = () => {
       navigate("/choose");
     let interval;
 
-    console.log(Cookies.get("token"))
+    // console.log(Cookies.get("token"))
 
     axios.get(`http://localhost:4000/api/v1/question/?language=${lang}&limit=1`,
       {

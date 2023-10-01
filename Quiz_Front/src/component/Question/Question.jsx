@@ -29,7 +29,7 @@ const Question = ({ question, index, setResult }) => {
     // useEffect(()=>{
     //     setGiveAns(false)
     // })
-    console.log(question, index)
+    // console.log(question, index)
     return (
         <>
             {

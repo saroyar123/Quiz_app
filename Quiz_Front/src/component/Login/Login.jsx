@@ -12,6 +12,7 @@ const Login = () => {
         e.preventDefault();
         await dispatch(userLoginAction(email,password));
         dispatch(getUserAction())
+        
     }
     return (
         <div className="login-container">

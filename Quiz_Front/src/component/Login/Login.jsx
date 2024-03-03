@@ -3,6 +3,8 @@ import "./Login.css"
 import { useDispatch } from 'react-redux';
 import { getUserAction, userLoginAction } from '../../Action/UserAction';
 import { Link } from 'react-router-dom';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'; 
 
 const Login = () => {
     const [email, setEmail] = useState("");
@@ -12,6 +14,7 @@ const Login = () => {
         e.preventDefault();
         await dispatch(userLoginAction(email,password));
         dispatch(getUserAction())
+
         
     }
     return (

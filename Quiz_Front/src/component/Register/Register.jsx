@@ -14,7 +14,6 @@ const Register = () => {
     const submitHandler=async(e)=>{
         e.preventDefault();
         await dispatch(userCreateAction(name,email,password));
-        dispatch(getUserAction())
 
     }
   return (
@@ -30,15 +29,8 @@ const Register = () => {
             
             <div className="Button_Register">
             <button type='submit'>Register</button>
-            {/* <a href='/'>
-                Login
-            </a> */}
             <Link to={"/"}>Login</Link>
             </div>
-            {message!==null?
-            <div className='alert'>
-                <h1>{message}</h1>
-           </div>:<></>}
            
             
         </form>

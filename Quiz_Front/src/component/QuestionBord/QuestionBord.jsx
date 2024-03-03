@@ -12,7 +12,7 @@ const QuestionBord = () => {
   const [lang, setLang] = useState(localStorage.getItem("language"));
   const [fetch, setFetch] = useState(false)
   const [index, setIndex] = useState(0);
-  const [question, setQuestion] = useState();
+  const [questionDetails, setQuestionDetails] = useState();
   const [result, setResult] = useState({
     carrect_Ans: 0,
     wrong_ans: 0,
@@ -37,10 +37,10 @@ const QuestionBord = () => {
       }).then((response) => {
         const { data } = response
         setFetch(true)
-        // console.log(response.data)
+        console.log(response.data)
         interval = setInterval(() => {
           if (index < 6) {
-            setQuestion({
+            setQuestionDetails({
               question: data.question[0].question,
               options: data.question[0].options,
               carrect_answer: data.question[0].correct_answer
@@ -59,7 +59,7 @@ const QuestionBord = () => {
     };
 
 
-  }, [lang, navigate, index, setQuestion, setFetch])
+  }, [lang, navigate, index, setQuestionDetails, setFetch])
 
   const handleTimerFinish = () => {
     // This function will be called when the timer is done
@@ -99,7 +99,7 @@ const QuestionBord = () => {
                   <h2>Question Number {index}</h2>
                 </div>
                 <div className="question-container">
-                  <Question question={question} key={index} index={index} setResult={setResult} />
+                  <Question question={questionDetails} key={index} index={index} setResult={setResult} />
                 </div>
                 <div className="timer">
                   <Timer onFinish={handleTimerFinish} key={index} />

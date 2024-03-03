@@ -1,5 +1,6 @@
 import axios from "axios"
 import Cookies from "js-cookie";
+import { toast } from "react-toastify";
 
 export const userCreateAction=(name,email,password)=>async(dispatch)=>{
    try {
@@ -15,7 +16,11 @@ export const userCreateAction=(name,email,password)=>async(dispatch)=>{
             payload:data
           })
 
+          toast.success("Register successful");
+
    } catch (error) {
+
+    toast.error("Something is wrong");
 
     dispatch({
         type:"createUserFailure",
@@ -36,8 +41,13 @@ export const userLoginAction=(email,password)=>async(dispatch)=>{
             type:"loginUserSuccess",
             payload:data
         })
+
+        toast.success("You are login");
+
     } catch (error) {
       // console.log(error.response.data)
+      toast.error("Something is wrong");
+
         dispatch({
             type:"loginUserFailure",
             payload:error.response.data
@@ -78,6 +88,8 @@ export const allUserAction=()=>async(dispatch)=>{
     dispatch({
       type:"allUserRequest"
     })
+
+    // https://quiz-app-znxn.onrender.com/
     const {data}=await axios.get("https://quiz-app-znxn.onrender.com/api/v1/alluser",{
       headers:{
           Authorization : `Bearer ${Cookies.get("token")}`

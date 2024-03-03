@@ -13,6 +13,8 @@ import ChooseLanguage from './component/ChooseLanguage/ChooseLanguage'
 import Result from './component/Result/Result'
 import Dashboard from './component/Dashboard/Dashboard'
 import Account from './component/Account/Account'
+import { ToastContainer} from 'react-toastify'
+import Loder from './component/Loder/Loder'
 
 function App() {
   const dispatch = useDispatch();
@@ -24,9 +26,11 @@ function App() {
   const { loading,data } = useSelector((state) => state.getUser)
 
   return (
+    <>
+    <ToastContainer position='top-left'/>
     <BrowserRouter>
     {
-      loading?<h1>Loading...</h1>:<>
+      loading?<Loder/>:<>
         <Routes>
         {data.user == null ? 
         <>
@@ -46,6 +50,7 @@ function App() {
       </>
     }
     </BrowserRouter>
+    </>
   )
 }
 
